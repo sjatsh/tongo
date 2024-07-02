@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tonkeeper/tongo/boc"
-	codePkg "github.com/tonkeeper/tongo/code"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
-	"github.com/tonkeeper/tongo/utils"
+	"github.com/sjatsh/tongo/boc"
+	codePkg "github.com/sjatsh/tongo/code"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
+	"github.com/sjatsh/tongo/utils"
 )
 
 type MethodInvocation struct {

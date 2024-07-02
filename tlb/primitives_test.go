@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 func TestMaybe(t *testing.T) {

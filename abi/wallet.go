@@ -3,8 +3,8 @@ package abi
 import (
 	"errors"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
 )
 
 // we need to write wallets payload type manually because it can be described on tlb

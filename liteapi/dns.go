@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 )
 
-// DnsResolve is deprecated. please use github.com/tonkeeper/tongo/contract/dns
+// DnsResolve is deprecated. please use github.com/sjatsh/tongo/contract/dns
 func (c *Client) DnsResolve(ctx context.Context, address ton.AccountID, domain string, category *big.Int) (int, *boc.Cell, error) {
 	var params tlb.VmStack
 	cell := boc.NewCell()

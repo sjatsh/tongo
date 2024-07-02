@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
-	"github.com/tonkeeper/tongo/utils"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
+	"github.com/sjatsh/tongo/utils"
 )
 
 type executor interface {

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tonkeeper/tongo/tl"
+	"github.com/sjatsh/tongo/tl"
 )
 
 var blk = TonNodeBlockIdExtC{

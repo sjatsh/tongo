@@ -3,7 +3,7 @@ package tlb
 import (
 	"fmt"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 // AddressWithWorkchain is a TL-B type that represents the key in "suspended_address_list.addresses":

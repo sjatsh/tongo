@@ -4,8 +4,8 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 
-	"github.com/tonkeeper/tongo/tl"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/tl"
+	"github.com/sjatsh/tongo/tlb"
 )
 
 type OverlayID struct {

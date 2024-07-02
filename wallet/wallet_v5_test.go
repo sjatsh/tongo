@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tonkeeper/tongo/liteapi"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/liteapi"
+	"github.com/sjatsh/tongo/ton"
 )
 
 func TestGetW5ExtensionsList(t *testing.T) {

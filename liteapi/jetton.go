@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/tonkeeper/tongo/tep64"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/tep64"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 var ErrGramsOverflow = errors.New("grams overflow")

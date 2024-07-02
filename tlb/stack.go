@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tl"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tl"
 )
 
 // VmStack

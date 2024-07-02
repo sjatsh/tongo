@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 func Benchmark_Tlb_Unmarshal(b *testing.B) {

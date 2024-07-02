@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 // Message

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tonkeeper/tongo/liteclient"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/liteclient"
+	"github.com/sjatsh/tongo/ton"
 )
 
 type connection struct {

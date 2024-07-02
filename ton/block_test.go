@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
 )
 
 func TestBlockInfo_GetParents(t *testing.T) {

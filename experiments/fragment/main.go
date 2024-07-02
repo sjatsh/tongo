@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/tonkeeper/tongo/connect"
+	"github.com/sjatsh/tongo/connect"
 	"io"
 	"net/http"
 	"net/http/cookiejar"

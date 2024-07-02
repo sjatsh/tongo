@@ -1,4 +1,4 @@
-module github.com/tonkeeper/tongo
+module github.com/sjatsh/tongo
 
 go 1.19
 

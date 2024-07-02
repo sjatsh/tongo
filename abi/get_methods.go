@@ -5,9 +5,9 @@ package abi
 import (
 	"context"
 	"fmt"
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 )
 
 var KnownGetMethodsDecoder = map[string][]func(tlb.VmStack) (string, any, error){

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tonkeeper/tongo/boc"
-	codePkg "github.com/tonkeeper/tongo/code"
-	"github.com/tonkeeper/tongo/liteapi"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/boc"
+	codePkg "github.com/sjatsh/tongo/code"
+	"github.com/sjatsh/tongo/liteapi"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 )
 
 type Tracer struct {

@@ -5,7 +5,7 @@ package main
 import (
 	"os"
 
-	"github.com/tonkeeper/tongo/tlb/parser"
+	"github.com/sjatsh/tongo/tlb/parser"
 )
 
 func main() {

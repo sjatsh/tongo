@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tonkeeper/tongo/abi/parser"
+	"github.com/sjatsh/tongo/abi/parser"
 )
 
 const HEADER = `package abi
@@ -119,12 +119,12 @@ func main() {
 	}
 
 	for _, f := range [][]string{
-		{types, "types.go", `"github.com/tonkeeper/tongo/tlb"`, `"fmt"`, `"encoding/json"`},
-		{msgDecoder, "messages_generated.go", `"github.com/tonkeeper/tongo/tlb"`},
-		{getMethods, "get_methods.go", `"context"`, `"fmt"`, `"github.com/tonkeeper/tongo/ton"`, `"github.com/tonkeeper/tongo/boc"`, `"github.com/tonkeeper/tongo/tlb"`},
-		{invocationOrder, "interfaces.go", `"github.com/tonkeeper/tongo/ton"`},
-		{jettons, "jetton_msg_types.go", `"github.com/tonkeeper/tongo/boc"`, `"github.com/tonkeeper/tongo/tlb"`},
-		{nfts, "nfts_msg_types.go", `"github.com/tonkeeper/tongo/boc"`, `"github.com/tonkeeper/tongo/tlb"`},
+		{types, "types.go", `"github.com/sjatsh/tongo/tlb"`, `"fmt"`, `"encoding/json"`},
+		{msgDecoder, "messages_generated.go", `"github.com/sjatsh/tongo/tlb"`},
+		{getMethods, "get_methods.go", `"context"`, `"fmt"`, `"github.com/sjatsh/tongo/ton"`, `"github.com/sjatsh/tongo/boc"`, `"github.com/sjatsh/tongo/tlb"`},
+		{invocationOrder, "interfaces.go", `"github.com/sjatsh/tongo/ton"`},
+		{jettons, "jetton_msg_types.go", `"github.com/sjatsh/tongo/boc"`, `"github.com/sjatsh/tongo/tlb"`},
+		{nfts, "nfts_msg_types.go", `"github.com/sjatsh/tongo/boc"`, `"github.com/sjatsh/tongo/tlb"`},
 		{contractErrors, "contracts_errors.go"},
 	} {
 		file, err := os.Create(f[1])

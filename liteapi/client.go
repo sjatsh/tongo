@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/config"
-	"github.com/tonkeeper/tongo/liteapi/pool"
-	"github.com/tonkeeper/tongo/liteclient"
-	"github.com/tonkeeper/tongo/tl"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
-	"github.com/tonkeeper/tongo/utils"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/config"
+	"github.com/sjatsh/tongo/liteapi/pool"
+	"github.com/sjatsh/tongo/liteclient"
+	"github.com/sjatsh/tongo/tl"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
+	"github.com/sjatsh/tongo/utils"
 )
 
 const (

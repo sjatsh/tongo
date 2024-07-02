@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
 )
 
 type VerbosityLevel int

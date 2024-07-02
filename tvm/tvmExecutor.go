@@ -17,11 +17,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
-	"github.com/tonkeeper/tongo/txemulator"
-	"github.com/tonkeeper/tongo/utils"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
+	"github.com/sjatsh/tongo/txemulator"
+	"github.com/sjatsh/tongo/utils"
 )
 
 type libResolver interface {

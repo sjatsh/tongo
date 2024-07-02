@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tonkeeper/tongo/code"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
-	"github.com/tonkeeper/tongo/tontest"
-	"github.com/tonkeeper/tongo/txemulator"
+	"github.com/sjatsh/tongo/code"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
+	"github.com/sjatsh/tongo/tontest"
+	"github.com/sjatsh/tongo/txemulator"
 )
 
 const SOURCE_CODE = `

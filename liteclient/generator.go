@@ -4,7 +4,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/tonkeeper/tongo/tl/parser"
+	"github.com/sjatsh/tongo/tl/parser"
 	"io/ioutil"
 	"os"
 )
@@ -42,7 +42,7 @@ import (
 	"context"
 	"encoding/binary"
 	"fmt"
-	"github.com/tonkeeper/tongo/tl"
+	"github.com/sjatsh/tongo/tl"
 	"io"
 )
 `)

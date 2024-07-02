@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/tonkeeper/tongo/code"
+	"github.com/sjatsh/tongo/code"
 )
 
 func main() {

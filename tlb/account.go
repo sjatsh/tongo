@@ -1,7 +1,7 @@
 package tlb
 
 import (
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 // ShardAccount

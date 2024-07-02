@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/sjatsh/tongo/abi"
+	"github.com/sjatsh/tongo/contract/dns"
+	"github.com/sjatsh/tongo/liteapi"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 	"github.com/snksoft/crc"
-	"github.com/tonkeeper/tongo/abi"
-	"github.com/tonkeeper/tongo/contract/dns"
-	"github.com/tonkeeper/tongo/liteapi"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
 )
 
 const (

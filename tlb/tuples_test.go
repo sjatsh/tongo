@@ -2,7 +2,7 @@ package tlb
 
 import (
 	"fmt"
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 	"testing"
 )
 

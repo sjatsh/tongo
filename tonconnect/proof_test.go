@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tonkeeper/tongo/liteapi"
-	"github.com/tonkeeper/tongo/wallet"
+	"github.com/sjatsh/tongo/liteapi"
+	"github.com/sjatsh/tongo/wallet"
 )
 
 func TestCreateSignedProof(t *testing.T) {

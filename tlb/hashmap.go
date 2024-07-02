@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 type fixedSize interface {

@@ -2,8 +2,8 @@ package abi
 
 import (
 	"encoding/json"
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
 	"reflect"
 	"testing"
 )

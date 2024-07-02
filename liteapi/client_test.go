@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tonkeeper/tongo/config"
-	"github.com/tonkeeper/tongo/liteapi/pool"
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/config"
+	"github.com/sjatsh/tongo/liteapi/pool"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 	"golang.org/x/exp/maps"
 )
 

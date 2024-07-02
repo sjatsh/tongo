@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tonkeeper/tongo/boc"
+	"github.com/sjatsh/tongo/boc"
 )
 
 func byte32FromHex(x string) [32]byte {

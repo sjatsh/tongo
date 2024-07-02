@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tonkeeper/tongo/tlb"
-	"github.com/tonkeeper/tongo/ton"
+	"github.com/sjatsh/tongo/tlb"
+	"github.com/sjatsh/tongo/ton"
 )
 
 func (c *Client) GetSeqno(ctx context.Context, account ton.AccountID) (uint32, error) {

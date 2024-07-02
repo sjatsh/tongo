@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tonkeeper/tongo/liteapi"
-	"github.com/tonkeeper/tongo/ton"
-	"github.com/tonkeeper/tongo/wallet"
+	"github.com/sjatsh/tongo/liteapi"
+	"github.com/sjatsh/tongo/ton"
+	"github.com/sjatsh/tongo/wallet"
 )
 
 func initDefaultWallet(blockchain *liteapi.Client) wallet.Wallet {

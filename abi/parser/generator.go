@@ -12,9 +12,9 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 
-	"github.com/tonkeeper/tongo/tlb"
-	tlbParser "github.com/tonkeeper/tongo/tlb/parser"
-	"github.com/tonkeeper/tongo/utils"
+	"github.com/sjatsh/tongo/tlb"
+	tlbParser "github.com/sjatsh/tongo/tlb/parser"
+	"github.com/sjatsh/tongo/utils"
 )
 
 var defaultKnownTypes = map[string]tlbParser.DefaultType{

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tonkeeper/tongo/tl"
+	"github.com/sjatsh/tongo/tl"
 )
 
 const (

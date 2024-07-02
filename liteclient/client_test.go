@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tonkeeper/tongo/config"
+	"github.com/sjatsh/tongo/config"
 )
 
 func createTestLiteServerConnection() (*Connection, error) {

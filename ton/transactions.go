@@ -1,6 +1,6 @@
 package ton
 
-import "github.com/tonkeeper/tongo/tlb"
+import "github.com/sjatsh/tongo/tlb"
 
 type Transaction struct {
 	tlb.Transaction

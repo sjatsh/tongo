@@ -5,7 +5,7 @@ package abi
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/tlb"
 )
 
 type DedustAsset struct {

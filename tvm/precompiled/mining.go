@@ -1,8 +1,8 @@
 package precompiled
 
 import (
-	"github.com/tonkeeper/tongo/boc"
-	"github.com/tonkeeper/tongo/tlb"
+	"github.com/sjatsh/tongo/boc"
+	"github.com/sjatsh/tongo/tlb"
 )
 
 var getPowParamsGram = func(data *boc.Cell, args tlb.VmStack) (tlb.VmStack, error) {
